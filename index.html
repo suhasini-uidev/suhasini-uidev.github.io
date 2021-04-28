@@ -1,4 +1,188 @@
-<html>
-  <h1>Suhasini's Portfolio</h1>
-  <img src="./myName.png"/>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title> Portfolio Website</title>
+    <!-- Required meta tags and files for bootstrap  Ref: https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">-->
+    </head>
+    <body data-spy="scroll" data-target="#navbarResponsive">
+      <div id="home">
+          <!-- Navigation start Ref: https://getbootstrap.com/docs/5.0/components/navbar/-->
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+           <!---<div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>-->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+          <!-- navigation end-->
+          <!-- background start-->
+          <div>
+            <img src="images/image1.jpg" class="img-fluid">
+          </div>
+          <div class="heading-content text-center">
+           <h5>Hello,I'm</h5>
+            <h1>Suhasini</h1>
+            <p> This is my portfolio </p>
+          </div>
+          <!-- background end-->
+          <!-- About start-->
+          <div id="about" class="offset container mt-1 pb-5">
+            <div class="post-heading text-center">
+              <h3 class="display-6 font-weight-bold">About Me</h3>
+              <hr class="w-50 mx-auto pb-1">
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-12 pb-4">
+                <!--<img src="images/image1.jpg" class="img-fluid">-->
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D6Bsnm7uHq4?rel=0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-12">
+                <h2> Creative Front End Web Developer</h2>
+                <hr>
+                <p>Hi There, I am Suhasini Karri with dual masters in Computer Science and Business Administration.  I have 5+ years experience in UI Front End development.  I have helped to create website and webtools for various companies include LinkedIn.  Problem solving excites me and I never shy away from new challenges.</p>  
+                <p>  
+                Currently I am learning back end web development to switch into a Full Stack Developer role.   I always keep myself updated with the latest and greatest in technology learning Bootstrap, React and Node JS.  This helps me to understand and contribute to the full product development, adding value to my employers and customers.
+                </p>
+
+                <p>My Skill Set: HTML5, CSS3, JavaScript,Bootstrap, Angular, Nodejs, MySQL and python</p>
+
+                <p>My github link is "https://github.com/suhasini-uidev"</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- About end -->
+          <!-- Projects start-->
+          <div id="projects" class=" offset container mt-5 mb-5">
+            <div class="card">
+            <div class="post-heading text-center">
+              <h3 class="display-6 font-weight-bold">My projects</h3>
+              <hr class="w-50 mx-auto pb-1">
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 pb-5">
+            <div class="card" >
+              <img src="images/Pacman1.png" class="card-img-top" alt="noimage">
+              <div class="card-body">
+                <h5 class="card-title"> Pacman </h5>
+                <p class="card-text">The project creates a PacMan mimicking an eating Pacman. The PacMan keeps moving from from left to right in the forward direction and back in the reverse the direction from right to left, repeating this continuously. Each time the PacMan is moving, it will open and close its mouth, mimicking an eating Pacman.</p>
+                <a href="https://github.com/suhasini-uidev/PacMan" class="btn btn-info">Download code</a>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 pb-5">
+              <div class="card" >
+                <img src="images/eyes.png" class="card-img-top" alt="noimage">
+                <div class="card-body">
+                  <h5 class="card-title">Eye Exercise</h5>
+                  <p class="card-text">This  project creates a web page with two eyes that follow your mouse movement.  Front End development skills demonstrated in this exercise are HTML, CSS, and JavaScript to create this dynamic experience.  The 2 eyes will follow the mouse movements.  As we move the mouse, the mouse events will be picked up and then  we are moving the eye balls to match the mouse movements.</p>
+                  <a href="https://github.com/suhasini-uidev/EyeExercise" class="btn btn-info">Download code</a>
+                </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 pb-5">
+                <div class="card" >
+                  <img src="images/busstop.png" class="card-img-top" alt="noimage">
+                  <div class="card-body">
+                    <h5 class="card-title">Busstoptracker</h5>
+                    <p class="card-text">This  project  which demonstrate the path that a bus takes between MIT  and the Harvard university. This project requires the skills in javascript and CSS to create the dynamic experience of moving the marker from one bus stop to another bus stop, here we will pull data from different bus routes and allow the user to choose their bus route they want to see.
+                    </p>
+                    <a href="https://github.com/suhasini-uidev/BusstopTracker" class="btn btn-info">Download code</a>
+                  </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- projects end end -->
+          
+          <!-- Contact start-->
+          <div id="contact" class=" offset w-50 mx-auto mt-5 mb-5">
+            <div class="post-heading text-center">
+              <h3 class="display-6 font-weight-bold">Contact Us</h3>
+              <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 80px;">
+              <p>
+                <i class="fas fa-home mr-3"></i> BayArea,California,USA.</p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> suhasini.uidev@gmail.com</p>
+              <p>
+                <i class="fas fa-phone mr-3"></i> +01 000 0000 001</p>
+              <p>
+                <i class="fas fa-print mr-3"></i> + 01 000 0000 002</p>
+              <hr class="w-50 mx-auto pb-1">
+            </div>
+          </div>
+          <!-- Contact end -->
+          <!-- Footer start-->
+          <!-- Footer -->
+         
+<footer class="page-footer font-small blue-grey lighten-5">
+
+  <div style="background-color: #21d192;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Connect on social network!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  
+        </div>
+      <!-- The header part is done here -->
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      </div>
+    
+  </body>
 </html>

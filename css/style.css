@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
+
+body{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+}
+.offset:before{
+  display: block;
+  content:"";
+  height: 6rem;
+}
+.navbar{
+  text-transform:uppercase;
+  font-size:14px;
+  font-weight:700;
+  letter-spacing:0.4rem;
+  /*background:rgba(0,0,0,0.2) !important;*/
+  background:lightgray;
+  padding: 20px 0;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color:#fff;
+  font-family: "Lato", sans-serif;
+  padding-left:20px;
+}
+/*.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav- link:hover{
+  color: #1ebba3;
+}*/
+.navbar-dark .navbar-nav  .nav-item .nav-link.active{
+  color: #1ebba3;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+  color: #1ebba3;
+}
+
+.heading-content{
+  position:absolute;
+  top:50%;
+  width:100%;
+  max-width: 100%;
+}
+.heading-content h5{
+  font-size:4em;
+  font-weight:300;
+  color:#501601;
+  font-family:monospace;
+}
+.heading-content h1{
+  font-size:4em;
+  font-weight:bolder;
+  color:#501601;
+  font-family:'Montserrat', sans-serif;
+  text-transform:uppercase;
+}
+.heading-content p{
+  font-size:1em;
+  font-weight:bold;
+  color:#501601;
+  text-transform:uppercase;
+  word-spacing:5px;
+  letter-spacing:2px;
+}
+/* newsletter */
+.sec1{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background:#f8fafb;
+}
+.sec1 h2{
+  font-family:'Poppins', sans-serif;
+  font-weight:bold;
+  letter-spacing: 3px;
+  line-height:50px;
+}
+.sec1 p{
+  font-family:'Poppins', sans-serif;
+  font-weight:400;
+}
+/* Media query */
+@media screen and (max-width: 767px){
+    .navbar {
+      letter-spacing:0.1em;
+      padding:10px 0;
+    }
+    .heading-content h5{
+      font-size: 3em;
+    }
+    .heading-content h1{
+      font-size:3em;
+    }
+    .heading-content p{
+      font-size:0.9em;
+    }
+
+}
+@media screen and (max-width: 479px){
+  .navbar {
+    letter-spacing:0.1em;
+    padding:6px 0;
+  }
+  .heading-content h5{
+    font-size: 2em;
+  }
+  .heading-content h1{
+    font-size:2em;
+  }
+  .heading-content p{
+    font-size:0.7em;
+  }
+  #contact .post-heading h3{
+    font-size: 2em;
+  }
+
+}
+  
+
